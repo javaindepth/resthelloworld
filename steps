@@ -1,0 +1,20 @@
+create a maven project 
+mvn archetype:generate -DgroupId=com.mkyong.rest -DartifactId=resthelloworld -DarchetypeArtifactId=maven-archetype-webapp -DinteractiveMode=false
+
+add eclipes capabality
+mvn eclipse:eclipse -Dwtpversion=2.0
+
+update pom.xml with the follwoing dependencies
+
+<dependencies>
+ 
+		<dependency>
+			<groupId>com.sun.jersey</groupId>
+			<artifactId>jersey-server</artifactId>
+			<version>1.8</version>
+		</dependency>
+ 
+	</dependencies>
+
+
+

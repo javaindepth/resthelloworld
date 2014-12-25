@@ -1,0 +1,14 @@
+create a maven project 
+mvn archetype:generate -DgroupId=com.mkyong.rest -DartifactId=resthelloworld -DarchetypeArtifactId=maven-archetype-webapp -DinteractiveMode=false
+
+update pom.xml with the follwoing dependencies
+
+<dependencies>
+ 
+		<dependency>
+			<groupId>com.sun.jersey</groupId>
+			<artifactId>jersey-server</artifactId>
+			<version>1.8</version>
+		</dependency>
+ 
+	</dependencies>
